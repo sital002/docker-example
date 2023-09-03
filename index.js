@@ -1,12 +1,12 @@
-console.log("Hello World this is a test !");
+console.log("Testing docker ");
 const express = require("express");
 
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello World is not working properly!");
+  res.send("Hello World  ");
 });
 
 app.listen(3000, () => {
-  console.log("Server is running on port 3000");
+  console.log("Server is running on port 3000 ");
 });
